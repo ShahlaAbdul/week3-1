@@ -1,0 +1,87 @@
+
+.body{
+    width: 100%;
+    position: relative;
+
+}
+main{
+    position: absolute;
+    width: 85%;
+    right: 0px;
+}
+.navbar{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(65, 122, 122);
+
+    
+}
+.navbar img{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 20px ;
+}
+.navbar h1{
+    font-size: 20px;
+    padding: 2px;
+
+}
+.navbar span{
+    font-size: 15px;
+    color: rgb(100, 103, 105);
+}
+.navbar .icons1{
+    margin-top: 20px; 
+}
+.navbar li{
+    margin-top: 40px;
+    margin-bottom: 40px ;
+}
+.navbar i:hover{
+    color: crimson;
+}
+.navbar li:hover{
+    color: crimson;
+}
+.div2 p{
+   display: contents;
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+  
+}
+.div2   button{
+    border: 1px solid rgb(229, 229, 231);
+    width: 10%;
+    height: 30px;
+   
+}
+.div2 li:hover{
+    color: brown;
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.div77 img{
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+   /*.page {
+    display:grid;
+    grid-template-columns: auto auto auto;
+        
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 6 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 6; }
+        .div3 { grid-area: 2 / 2 / 4 / 5; }
+*/
